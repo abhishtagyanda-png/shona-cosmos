@@ -19,7 +19,7 @@ export default function Footer() {
           </div>
           <div className={styles.linkGroup}>
             <h3>Connect</h3>
-            <Link href="#">Pinterest</Link>
+            <Link href="https://www.pinterest.com/shonagyanda/" target="_blank" rel="noopener noreferrer">Pinterest</Link>
             <Link href="#">Instagram</Link>
             <Link href="#">Twitter (X)</Link>
             <Link href="#">GitHub</Link>

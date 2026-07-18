@@ -10,28 +10,28 @@ export default function PinterestGallery() {
       description: "My cozy late-night study corner with warm lights.",
       image: "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?q=80&w=400&auto=format&fit=crop", 
       height: "300px",
-      pinLink: "#" // PASTE PINTEREST URL HERE
+      pinLink: "https://www.pinterest.com/shonagyanda/"
     },
     { 
       title: "Favorite Sci-Fi Reads",
       description: "Must-read science fiction books for 2026.",
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=400&auto=format&fit=crop", 
       height: "450px",
-      pinLink: "#" // PASTE PINTEREST URL HERE
+      pinLink: "https://www.pinterest.com/shonagyanda/"
     },
     { 
       title: "James Webb Wallpaper",
       description: "High-res deep field wallpaper for mobile.",
       image: "https://images.unsplash.com/photo-1536697246787-1f27d35140cb?q=80&w=400&auto=format&fit=crop", 
       height: "250px",
-      pinLink: "#" // PASTE PINTEREST URL HERE
+      pinLink: "https://www.pinterest.com/shonagyanda/"
     },
     { 
       title: "Astrophysics Notes",
       description: "Aesthetic handwritten physics notes.",
       image: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=400&auto=format&fit=crop", 
       height: "350px",
-      pinLink: "#" // PASTE PINTEREST URL HERE
+      pinLink: "https://www.pinterest.com/shonagyanda/"
     }
   ];
 

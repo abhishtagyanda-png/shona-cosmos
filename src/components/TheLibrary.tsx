@@ -3,28 +3,148 @@ import styles from './TheLibrary.module.css';
 export default function TheLibrary() {
   const books = [
     {
-      title: "A Brief History of Time",
-      author: "Stephen Hawking",
+      title: "Cosmos",
+      author: "Carl Sagan",
       category: "Astronomy & Physics",
       rating: "⭐⭐⭐⭐⭐",
-      cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=400&auto=format&fit=crop",
-      miniReview: "A fascinating journey through the fundamental concepts of space and time.",
-      quote: `"We are just an advanced breed of monkeys on a minor planet of a very average star. But we can understand the Universe."`,
-      whyRecommend: "Essential reading for anyone curious about how the universe works.",
+      cover: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=400&auto=format&fit=crop", // Placeholder for actual cover
+      miniReview: "A profound journey through space and time.",
+      quote: `"The cosmos is within us. We are made of star-stuff."`,
+      whyRecommend: "It changed the way I see the universe.",
       reviewLink: "#",
-      amazonLink: "#" // PASTE AMAZON AFFILIATE LINK HERE
+      amazonLink: "https://link.amazon/B00TUMpAl"
     },
     {
-      title: "Dune",
-      author: "Frank Herbert",
-      category: "Fiction",
+      title: "Astrophysics for People in a Hurry",
+      author: "Neil deGrasse Tyson",
+      category: "Astronomy & Physics",
       rating: "⭐⭐⭐⭐⭐",
-      cover: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=400&auto=format&fit=crop",
-      miniReview: "The greatest sci-fi epic ever written, blending ecology, politics, and mysticism.",
-      quote: `"I must not fear. Fear is the mind-killer."`,
-      whyRecommend: "Its world-building is unparalleled and remains highly relevant today.",
+      cover: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=400&auto=format&fit=crop",
+      miniReview: "Bite-sized brilliance for busy minds.",
+      quote: `"The universe is under no obligation to make sense to you."`,
+      whyRecommend: "Perfect for quick, mind-expanding reading.",
       reviewLink: "#",
-      amazonLink: "#" // PASTE AMAZON AFFILIATE LINK HERE
+      amazonLink: "https://link.amazon/B02tPiBNH"
+    },
+    {
+      title: "Dark Matter",
+      author: "Blake Crouch",
+      category: "Sci-Fi / Thriller",
+      rating: "⭐⭐⭐⭐⭐",
+      cover: "https://images.unsplash.com/photo-1518331647614-7a1f04cd34af?q=80&w=400&auto=format&fit=crop",
+      miniReview: "A mind-bending thriller across parallel universes.",
+      quote: `"Are you happy with your life?"`,
+      whyRecommend: "You won't be able to put it down.",
+      reviewLink: "#",
+      amazonLink: "#"
+    },
+    {
+      title: "The Cruel Prince",
+      author: "Holly Black",
+      category: "Fantasy",
+      rating: "⭐⭐⭐⭐",
+      cover: "https://images.unsplash.com/photo-1589998059171-989d887dda6e?q=80&w=400&auto=format&fit=crop",
+      miniReview: "Political intrigue and fae magic.",
+      quote: `"If I cannot be better than them, I will become so much worse."`,
+      whyRecommend: "Amazing enemies to lovers dynamic.",
+      reviewLink: "#",
+      amazonLink: "#"
+    },
+    {
+      title: "The Wicked King",
+      author: "Holly Black",
+      category: "Fantasy",
+      rating: "⭐⭐⭐⭐⭐",
+      cover: "https://images.unsplash.com/photo-1533036665798-842247dc2c07?q=80&w=400&auto=format&fit=crop",
+      miniReview: "An incredible sequel with high stakes.",
+      quote: `"Power is much easier to acquire than it is to hold on to."`,
+      whyRecommend: "The tension is perfectly crafted.",
+      reviewLink: "#",
+      amazonLink: "#"
+    },
+    {
+      title: "The Queen of Nothing",
+      author: "Holly Black",
+      category: "Fantasy",
+      rating: "⭐⭐⭐⭐",
+      cover: "https://images.unsplash.com/photo-1541963463532-d68292c34b19?q=80&w=400&auto=format&fit=crop",
+      miniReview: "A satisfying conclusion to the trilogy.",
+      quote: `"By you, I am forever undone."`,
+      whyRecommend: "A must-read if you started the series.",
+      reviewLink: "#",
+      amazonLink: "#"
+    },
+    {
+      title: "Harry Potter (Series)",
+      author: "J.K. Rowling",
+      category: "Fantasy",
+      rating: "⭐⭐⭐⭐⭐",
+      cover: "https://images.unsplash.com/photo-1517436073-3b1b1b5d5b7a?q=80&w=400&auto=format&fit=crop",
+      miniReview: "The definitive magical coming-of-age story.",
+      quote: `"Words are, in my not-so-humble opinion, our most inexhaustible source of magic."`,
+      whyRecommend: "A timeless classic that feels like home.",
+      reviewLink: "#",
+      amazonLink: "#"
+    },
+    {
+      title: "Atomic Habits",
+      author: "James Clear",
+      category: "Self Improvement",
+      rating: "⭐⭐⭐⭐⭐",
+      cover: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=400&auto=format&fit=crop",
+      miniReview: "The ultimate guide to building good habits.",
+      quote: `"You do not rise to the level of your goals. You fall to the level of your systems."`,
+      whyRecommend: "Practical and genuinely life-changing.",
+      reviewLink: "#",
+      amazonLink: "#"
+    },
+    {
+      title: "Ikigai",
+      author: "Héctor García & Francesc Miralles",
+      category: "Self Improvement",
+      rating: "⭐⭐⭐⭐",
+      cover: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=400&auto=format&fit=crop",
+      miniReview: "Finding your purpose and joy in life.",
+      quote: `"Only staying active will make you want to live a hundred years."`,
+      whyRecommend: "A peaceful, inspiring read.",
+      reviewLink: "#",
+      amazonLink: "#"
+    },
+    {
+      title: "Ward D",
+      author: "Freida McFadden",
+      category: "Mystery / Thriller",
+      rating: "⭐⭐⭐⭐",
+      cover: "https://images.unsplash.com/photo-1519052537078-e6302a4968d4?q=80&w=400&auto=format&fit=crop",
+      miniReview: "A gripping psychological thriller.",
+      quote: `"Some doors should never be opened."`,
+      whyRecommend: "Fast-paced and full of twists.",
+      reviewLink: "#",
+      amazonLink: "#"
+    },
+    {
+      title: "Never Lie",
+      author: "Freida McFadden",
+      category: "Mystery / Thriller",
+      rating: "⭐⭐⭐⭐",
+      cover: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=400&auto=format&fit=crop",
+      miniReview: "Unpredictable and chilling.",
+      quote: `"The truth always comes out."`,
+      whyRecommend: "Keeps you guessing until the last page.",
+      reviewLink: "#",
+      amazonLink: "#"
+    },
+    {
+      title: "That's Not My Name",
+      author: "Megan Lally",
+      category: "Mystery / Thriller",
+      rating: "⭐⭐⭐⭐",
+      cover: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=400&auto=format&fit=crop",
+      miniReview: "An intense and twisty YA thriller.",
+      quote: `"Who are you when you can't remember yourself?"`,
+      whyRecommend: "A brilliant, suspenseful debut.",
+      reviewLink: "#",
+      amazonLink: "#"
     }
   ];
 
@@ -37,20 +157,20 @@ export default function TheLibrary() {
         <div className={`glass-panel ${styles.readingGoal}`}>
           <div className={styles.goalHeader}>
             <h3>2026 Reading Goal</h3>
-            <span className={styles.goalText}>8 / 20 Books</span>
+            <span className={styles.goalText}>12 / 20 Books</span>
           </div>
           <div className={styles.progressBarBg}>
-            <div className={styles.progressBarFill} style={{ width: '40%' }}></div>
+            <div className={styles.progressBarFill} style={{ width: '60%' }}></div>
           </div>
           <div className={styles.statusFooter}>
-            <p><strong>Currently Reading:</strong> The Three-Body Problem</p>
-            <p><strong>Recently Finished:</strong> Project Hail Mary</p>
+            <p><strong>Currently Reading:</strong> Cosmos by Carl Sagan</p>
+            <p><strong>Recently Finished:</strong> Dark Matter</p>
           </div>
         </div>
 
         {/* Categories */}
         <div className={styles.categories}>
-          {["Astronomy & Physics", "Fiction", "Mystery & Thriller", "Self Improvement", "Programming & Technology"].map(cat => (
+          {["Astronomy & Physics", "Fantasy", "Mystery / Thriller", "Self Improvement", "Sci-Fi / Thriller"].map(cat => (
             <button key={cat} className={styles.categoryBtn}>{cat}</button>
           ))}
         </div>

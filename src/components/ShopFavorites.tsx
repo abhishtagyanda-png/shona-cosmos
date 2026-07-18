@@ -5,12 +5,12 @@ export default function ShopFavorites() {
   
   const products = [
     {
-      name: "NASA Apollo Saturn V",
-      category: "Space Decor",
-      description: "A stunning 1:110 scale model of the iconic Saturn V rocket.",
-      price: "$119.99",
-      image: "https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=400&auto=format&fit=crop",
-      amazonLink: "#" // PASTE AMAZON AFFILIATE LINK HERE
+      name: "Wipro Smart Desk Lamp",
+      category: "Desk Setup",
+      description: "Perfect adjustable lighting for late-night study and reading sessions.",
+      price: "Check Price",
+      image: "https://images.unsplash.com/photo-1517705008128-361805f42e86?q=80&w=400&auto=format&fit=crop",
+      amazonLink: "https://link.amazon/B01QaPbPe"
     },
     {
       name: "Levitating Moon Lamp",
