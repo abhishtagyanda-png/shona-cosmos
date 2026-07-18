@@ -164,7 +164,7 @@ export default function TheLibrary() {
           </div>
           <div className={styles.statusFooter}>
             <p><strong>Currently Reading:</strong> Cosmos by Carl Sagan</p>
-            <p><strong>Recently Finished:</strong> Dark Matter</p>
+            <p><strong>Recently Finished:</strong> Ward D</p>
           </div>
         </div>
 
