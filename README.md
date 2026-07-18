@@ -6,7 +6,7 @@
 
 A cozy corner of the internet where astronomy, books, curiosity, and creativity come together.
 
-[Live Website](#) • [Pinterest](#) • [Shop](#)
+[Live Website](https://shona-cosmos.vercel.app/) • [Pinterest](https://www.pinterest.com/shonagyanda/) 
 
 </div>
 
