@@ -1,0 +1,204 @@
+.librarySection {
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.readingGoal {
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(255,255,255,0.03), rgba(217, 136, 106, 0.05));
+  border: 1px solid var(--color-accent-warm);
+}
+
+.goalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.goalHeader h3 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.goalText {
+  color: var(--color-accent-gold);
+  font-weight: 700;
+}
+
+.progressBarBg {
+  height: 12px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.progressBarFill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-accent-warm), var(--color-accent-gold));
+  border-radius: 6px;
+  transition: width 1s ease-in-out;
+}
+
+.statusFooter {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.statusFooter strong {
+  color: #fff;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.categoryBtn {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-glass-border);
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.categoryBtn:hover, .categoryBtn:active {
+  background: var(--color-accent-warm);
+  color: #000;
+  border-color: var(--color-accent-warm);
+}
+
+.bookGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+.bookCard {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bookCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.4), 0 0 15px rgba(217, 136, 106, 0.2);
+}
+
+.bookCover {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid var(--color-glass-border);
+}
+
+.bookDetails {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.bookHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.bookCategory {
+  font-size: 0.75rem;
+  color: var(--color-accent-warm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.rating {
+  font-size: 0.8rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 0.2rem;
+}
+
+.author {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.reviewSection {
+  background: rgba(0,0,0,0.2);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+.miniReview, .recommend {
+  margin-bottom: 0.8rem;
+}
+
+.miniReview strong, .recommend strong {
+  color: var(--color-accent-gold);
+}
+
+.quote {
+  font-style: italic;
+  border-left: 2px solid var(--color-accent-blue);
+  padding-left: 1rem;
+  margin-bottom: 0.8rem;
+  color: #fff;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.reviewBtn, .buyBtn {
+  flex: 1;
+  text-align: center;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.reviewBtn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid var(--color-glass-border);
+}
+
+.reviewBtn:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+.buyBtn {
+  background: var(--color-accent-gold);
+  color: #000;
+  border: 1px solid transparent;
+}
+
+.buyBtn:hover {
+  background: #d4a552;
+  box-shadow: 0 0 15px rgba(230, 194, 122, 0.4);
+}

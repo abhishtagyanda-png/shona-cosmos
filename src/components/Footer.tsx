@@ -12,10 +12,10 @@ export default function Footer() {
         
         <div className={styles.linksSection}>
           <div className={styles.linkGroup}>
-            <h3>Categories</h3>
-            <Link href="#astronomy">Astronomy</Link>
-            <Link href="#books">Book Recommendations</Link>
-            <Link href="#resources">Study Resources</Link>
+            <h3>Explore</h3>
+            <Link href="#library">The Library</Link>
+            <Link href="#shop">Shop My Favorites</Link>
+            <Link href="#astronomy">Astronomy Articles</Link>
           </div>
           <div className={styles.linkGroup}>
             <h3>Connect</h3>

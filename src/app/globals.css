@@ -1,11 +1,12 @@
 :root {
-  --color-bg: #090B18;
-  --color-bg-secondary: #121526;
+  --color-bg: #0b0c16;
+  --color-bg-secondary: #141522;
   --color-text-primary: #f0f2f5;
-  --color-text-secondary: #a0a5b5;
-  --color-accent-gold: #e6c27a;
-  --color-accent-blue: #4a90e2;
-  --color-glass-bg: rgba(255, 255, 255, 0.03);
+  --color-text-secondary: #a8aebf;
+  --color-accent-gold: #e8c682;
+  --color-accent-blue: #5b9ce6;
+  --color-accent-warm: #d9886a; /* Added warm cozy accent */
+  --color-glass-bg: rgba(255, 255, 255, 0.04);
   --color-glass-border: rgba(255, 255, 255, 0.08);
   
   --font-primary: var(--font-inter), sans-serif;
@@ -25,8 +26,9 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   background-image: 
-    radial-gradient(circle at 15% 50%, rgba(74, 144, 226, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 85% 30%, rgba(230, 194, 122, 0.05) 0%, transparent 50%);
+    radial-gradient(circle at 10% 40%, rgba(217, 136, 106, 0.04) 0%, transparent 60%),
+    radial-gradient(circle at 90% 60%, rgba(91, 156, 230, 0.04) 0%, transparent 60%),
+    radial-gradient(circle at 50% 10%, rgba(232, 198, 130, 0.03) 0%, transparent 50%);
   background-attachment: fixed;
 }
 

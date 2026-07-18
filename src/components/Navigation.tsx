@@ -4,11 +4,10 @@ import styles from './Navigation.module.css';
 export default function Navigation() {
   const links = [
     { name: 'Home', path: '/' },
-    { name: 'Astronomy', path: '#astronomy' },
-    { name: 'Books', path: '#books' },
-    { name: 'Resources', path: '#resources' },
+    { name: 'Library', path: '#library' },
     { name: 'Shop', path: '#shop' },
     { name: 'Pinterest', path: '#pinterest' },
+    { name: 'Astronomy', path: '#astronomy' },
     { name: 'About', path: '#about' },
     { name: 'Contact', path: '#contact' },
   ];

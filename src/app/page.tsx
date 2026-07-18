@@ -1,28 +1,19 @@
 import HeroSection from '@/components/HeroSection';
-import FeaturedArticles from '@/components/FeaturedArticles';
-import BookRecommendations from '@/components/BookRecommendations';
-import StudyResources from '@/components/StudyResources';
+import TheLibrary from '@/components/TheLibrary';
 import ShopFavorites from '@/components/ShopFavorites';
 import PinterestGallery from '@/components/PinterestGallery';
+import FeaturedArticles from '@/components/FeaturedArticles';
 import Newsletter from '@/components/Newsletter';
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <FeaturedArticles />
-      <BookRecommendations />
-      <StudyResources />
+      <TheLibrary />
       <ShopFavorites />
       <PinterestGallery />
+      <FeaturedArticles />
       <Newsletter />
     </>
   );
 }
-
-
-
-
-
-
-

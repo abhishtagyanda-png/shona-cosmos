@@ -28,11 +28,16 @@ export default function HeroSection() {
           <span className={styles.highlight}>One Discovery at a Time.</span>
         </h1>
         <p className={styles.description}>
-          A cinematic space dedicated to astronomy, computational astrophysics, and STEM education. Welcome to the observatory.
+          A place where astronomy, books, curiosity, programming, and creativity meet.
         </p>
-        <Link href="#resources" className={styles.ctaButton}>
-          Explore Resources
-        </Link>
+        <div className={styles.actions}>
+          <Link href="#library" className={styles.ctaButtonPrimary}>
+            Explore My Library
+          </Link>
+          <Link href="#shop" className={styles.ctaButtonSecondary}>
+            Shop My Favorites
+          </Link>
+        </div>
       </div>
     </section>
   );

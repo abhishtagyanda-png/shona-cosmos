@@ -1,7 +1,7 @@
 .newsletterSection {
   background: 
-    linear-gradient(to top, rgba(9, 11, 24, 1), rgba(9, 11, 24, 0)),
-    url('https://images.unsplash.com/photo-1464802686167-b939a6910659?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+    linear-gradient(to top, rgba(9, 11, 24, 1), rgba(9, 11, 24, 0.5)),
+    url('https://images.unsplash.com/photo-1464802686167-b939a6910659?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat; /* Milky Way background */
   background-attachment: fixed;
   display: flex;
   align-items: center;
@@ -15,10 +15,10 @@
 }
 
 .newsletterCard {
-  max-width: 600px;
+  max-width: 650px;
   width: 100%;
   padding: 4rem 3rem;
-  text-align: center;
+  text-align: left;
   position: relative;
   overflow: hidden;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
@@ -27,12 +27,12 @@
 
 .glow {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 300px;
-  height: 300px;
-  background: radial-gradient(circle, rgba(74, 144, 226, 0.15) 0%, transparent 70%);
-  transform: translate(-50%, -50%);
+  top: -50px;
+  right: -50px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(217, 136, 106, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
   pointer-events: none;
   animation: pulse-glow 8s infinite alternate;
 }
@@ -40,7 +40,7 @@
 .title {
   font-size: 2.5rem;
   color: #fff;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   position: relative;
   z-index: 1;
 }
@@ -48,9 +48,36 @@
 .description {
   color: var(--color-text-secondary);
   font-size: 1.1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.benefits {
   margin-bottom: 2.5rem;
   position: relative;
   z-index: 1;
+}
+
+.benefits p {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.benefits ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.benefits li {
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .form {
@@ -75,9 +102,9 @@
 
 .input:focus {
   outline: none;
-  border-color: var(--color-accent-blue);
+  border-color: var(--color-accent-warm);
   background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 15px rgba(74, 144, 226, 0.3);
+  box-shadow: 0 0 15px rgba(217, 136, 106, 0.3);
 }
 
 .input::placeholder {
@@ -85,19 +112,20 @@
 }
 
 .subscribeBtn {
-  background: linear-gradient(135deg, var(--color-accent-blue), #2c5e9e);
+  background: linear-gradient(135deg, var(--color-accent-warm), #b8694d);
   color: #fff;
   padding: 1rem 2rem;
   border-radius: 30px;
   font-weight: 600;
   font-size: 1rem;
   transition: all 0.3s ease;
-  box-shadow: 0 0 15px rgba(74, 144, 226, 0.2);
+  box-shadow: 0 0 15px rgba(217, 136, 106, 0.2);
+  white-space: nowrap;
 }
 
 .subscribeBtn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 0 25px rgba(74, 144, 226, 0.5);
+  box-shadow: 0 0 25px rgba(217, 136, 106, 0.5);
 }
 
 .disclaimer {
@@ -105,6 +133,7 @@
   font-size: 0.85rem;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 @media (max-width: 600px) {

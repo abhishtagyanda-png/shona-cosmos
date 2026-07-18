@@ -52,24 +52,46 @@
   margin-right: auto;
 }
 
-.ctaButton {
+.actions {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ctaButtonPrimary, .ctaButtonSecondary {
   display: inline-block;
   padding: 1rem 2.5rem;
   border-radius: 3rem;
-  background: linear-gradient(135deg, var(--color-accent-blue), #2c5e9e);
-  color: #fff;
   font-weight: 600;
   font-size: 1.1rem;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
   transition: all 0.3s ease;
-  box-shadow: 0 0 20px rgba(74, 144, 226, 0.3);
+}
+
+.ctaButtonPrimary {
+  background: linear-gradient(135deg, var(--color-accent-gold), #b38b47);
+  color: #000;
+  box-shadow: 0 0 20px rgba(230, 194, 122, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.ctaButton:hover {
+.ctaButtonPrimary:hover {
   transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 0 30px rgba(74, 144, 226, 0.6);
+  box-shadow: 0 0 30px rgba(230, 194, 122, 0.6);
+}
+
+.ctaButtonSecondary {
+  background: transparent;
+  color: #fff;
+  border: 1px solid var(--color-glass-border);
+}
+
+.ctaButtonSecondary:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: #fff;
+  transform: translateY(-3px) scale(1.02);
 }
 
 @media (max-width: 768px) {
@@ -77,3 +99,4 @@
     font-size: 3rem;
   }
 }
+

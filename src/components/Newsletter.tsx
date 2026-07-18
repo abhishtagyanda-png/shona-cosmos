@@ -10,8 +10,21 @@ export default function Newsletter() {
           <div className={styles.glow}></div>
           <h2 className={styles.title}>Join the Journey</h2>
           <p className={styles.description}>
-            Join thousands of curious minds exploring the universe. Receive weekly updates on astrophysics, book recommendations, and cosmic discoveries.
+            Receive thoughtful updates whenever I publish something worth sharing.
           </p>
+          
+          <div className={styles.benefits}>
+            <p>You'll get:</p>
+            <ul>
+              <li>📚 New book recommendations</li>
+              <li>🌌 Astronomy discoveries explained simply</li>
+              <li>💻 Programming & project updates</li>
+              <li>📌 New Pinterest collections</li>
+              <li>🚀 Useful resources</li>
+              <li>✨ Behind-the-scenes of my learning journey</li>
+            </ul>
+          </div>
+
           <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
             <input 
               type="email" 
@@ -20,10 +33,10 @@ export default function Newsletter() {
               required 
             />
             <button type="submit" className={styles.subscribeBtn}>
-              Subscribe
+              Join the Journey
             </button>
           </form>
-          <p className={styles.disclaimer}>No spam, just stars.</p>
+          <p className={styles.disclaimer}>No spam. Just curiosity.</p>
         </div>
       </div>
     </section>
